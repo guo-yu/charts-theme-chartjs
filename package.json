@@ -1,6 +1,8 @@
 {
   "name": "charts-theme-chartjs",
-  "version": "0.0.0",
+  "view engine": "jade",
+  "version": "0.0.1",
+  "static": "./static",
   "description": "the chartjs(http://www.chartjs.org/) solution of charts",
   "main": "index.js",
   "scripts": {

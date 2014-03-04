@@ -1,0 +1,23 @@
+{
+  "name": "charts-theme-chartjs",
+  "version": "0.0.0",
+  "description": "the chartjs(http://www.chartjs.org/) solution of charts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/turingou/charts-theme-chartjs.git"
+  },
+  "keywords": [
+    "charts",
+    "chartjs"
+  ],
+  "author": "turing <o.u.turing@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/turingou/charts-theme-chartjs/issues"
+  },
+  "homepage": "https://github.com/turingou/charts-theme-chartjs"
+}

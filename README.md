@@ -1,20 +1,40 @@
 ## charts-theme-chartjs ![npm](https://badge.fury.io/js/charts-theme-chartjs.png)
 
-the chartjs(http://www.chartjs.org/) solution of charts
+a [chartjs](http://www.chartjs.org/) solution of Charts.
+
+![screenshot](http://ww2.sinaimg.cn/large/61ff0de3gw1eed5ne2vdkj20nh0jwjte.jpg)
 
 ### Installation
 ````
-$ [sudo] npm install charts-theme-chartjs
+$ npm install charts-theme-chartjs
 ````
-
 
 ### Example
-````javascript
-var charts-theme-chartjs = require('charts-theme-chartjs');
-````
 
-### API
-check this file: `index.js`
+Make sure your Charts server is running and visit:
+
+#### Embed Mode
+
+Embed a Line chart (500x350)
+```
+http://localhost:3001/chartjs/500x350/{labels:['M1','M2','M3','M4','M5','M6','M7'],datasets:[{fillColor:'rgba(220,220,220,0.5)',strokeColor:'rgba(220,220,220,1)',pointColor:'rgba(220,220,220,1)',pointStrokeColor:'rgba(255,255,255,1)',data:[65,59,90,81,56,55,40]},{fillColor:'rgba(220,220,220,0.5)',strokeColor:'rgba(220,220,220,1)',pointColor:'rgba(220,220,220,1)',pointStrokeColor:'rgba(255,255,255,1)',data:[28,48,40,19,96,27,100]}]}?type=Line
+```
+
+Embed a Bar chart (500x350)
+```
+http://localhost:3001/chartjs/500x350/{labels:['M1','M2','M3','M4','M5','M6','M7'],datasets:[{fillColor:'rgba(220,220,220,0.5)',strokeColor:'rgba(220,220,220,1)',pointColor:'rgba(220,220,220,1)',pointStrokeColor:'rgba(255,255,255,1)',data:[65,59,90,81,56,55,40]},{fillColor:'rgba(151,187,205,0.5)',strokeColor:'rgba(220,220,220,1)',pointColor:'rgba(220,220,220,1)',pointStrokeColor:'rgba(255,255,255,1)',data:[28,48,40,19,96,27,100]}]}?type=Bar
+```
+
+Embed a Doughnut chart (350x350)
+```
+http://localhost:3001/chartjs/350x350/[{value:30,color:'rgba(123,162,63,1)'},{value:120,color:'rgba(145,180,147,0.8)'},{value:85,color:'rgba(129,199,212,1)'}]?type=Doughnut&delay=2000
+```
+
+#### Debug Mode
+
+just add `?preview=true` to embed link.
+
+**TIPS:** `1x1` means auto-width and auto-height
 
 ### Contributing
 - Fork this repo

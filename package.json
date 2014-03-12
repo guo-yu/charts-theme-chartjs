@@ -1,9 +1,9 @@
 {
   "name": "charts-theme-chartjs",
   "view engine": "jade",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "static": "./static",
-  "description": "the chartjs(http://www.chartjs.org/) solution of charts",
+  "description": "a chartjs solution of Charts",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

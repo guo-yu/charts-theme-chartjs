@@ -6,4 +6,4 @@ html
     script(src="#{static}/chart.min.js")
     script.
       var ctx = document.getElementById("chart").getContext("2d");
-      var myNewChart = new Chart(ctx).Bar(!{data});
+      var myNewChart = new Chart(ctx)['#{type}'](!{data});
